@@ -11,7 +11,7 @@ namespace task1
         private string _b;
         private double _c;
         private char _d;
-        public int A
+        protected int A
         {
             get
             {
@@ -22,7 +22,7 @@ namespace task1
                 _a = value;
             }
         }
-        public string B
+        protected string B
         {
             get
             {
@@ -33,7 +33,7 @@ namespace task1
                 _b = value;
             }
         }
-        public double C
+        protected double C
         {
             get
             {
@@ -44,7 +44,7 @@ namespace task1
                 _c = value;
             }
         }
-        public char D
+        protected char D
         {
             get
             {
