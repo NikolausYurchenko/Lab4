@@ -6,6 +6,7 @@ namespace task1
 {
     class Class
     {
+        // Создание переменных и своиств
         private int _a;
         private string _b;
         private double _c;
@@ -54,6 +55,8 @@ namespace task1
                 _d = value;
             }
         }
+
+        // Метод, который выводит на консоль все аргументы
         public void SetValue(int A, string B, double C, char D)
         {
             this.A = A;
