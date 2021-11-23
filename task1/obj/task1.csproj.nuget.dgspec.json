@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nicky\\source\\repos\\Lab4\\Lab4\\task1.csproj": {}
+    "C:\\Users\\nicky\\source\\repos\\Lab4\\task1\\task1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nicky\\source\\repos\\Lab4\\Lab4\\task1.csproj": {
+    "C:\\Users\\nicky\\source\\repos\\Lab4\\task1\\task1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nicky\\source\\repos\\Lab4\\Lab4\\task1.csproj",
+        "projectUniqueName": "C:\\Users\\nicky\\source\\repos\\Lab4\\task1\\task1.csproj",
         "projectName": "task1",
-        "projectPath": "C:\\Users\\nicky\\source\\repos\\Lab4\\Lab4\\task1.csproj",
+        "projectPath": "C:\\Users\\nicky\\source\\repos\\Lab4\\task1\\task1.csproj",
         "packagesPath": "C:\\Users\\nicky\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nicky\\source\\repos\\Lab4\\Lab4\\obj\\",
+        "outputPath": "C:\\Users\\nicky\\source\\repos\\Lab4\\task1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
