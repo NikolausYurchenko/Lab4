@@ -10,6 +10,7 @@ namespace task1
         {
             base.C = C;
             Console.ForegroundColor = ConsoleColor.Cyan;
+            base.PrintToDebug(base.C, "_c", "double");
             Console.WriteLine("Class Double");
             Console.WriteLine($"C = {base.C}\n" +
                 $"Type: Double\n" +

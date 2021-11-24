@@ -10,6 +10,7 @@ namespace task1
         {
             base.A = A;
             Console.ForegroundColor = ConsoleColor.Blue;
+            base.PrintToDebug(base.A, "_a", "int");
             Console.WriteLine("Class Int");
             Console.WriteLine($"A = {base.A}\n" +
                 $"Type: Int\n" +

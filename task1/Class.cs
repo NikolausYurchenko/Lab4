@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Diagnostics;
 
 namespace task1
 {
@@ -67,5 +68,12 @@ namespace task1
             Console.WriteLine($"All arguments: {A}, {B}, {C}, {D}\n" +
                 $"---------- ----------\n");
         }
+        //Метод выводит в дебаг аргументы
+        public void PrintToDebug(object A, string name, string type)
+        {
+            Debug.WriteLine($"{name}: {A} type: {type}");
+        }
+
     }
+       
 }

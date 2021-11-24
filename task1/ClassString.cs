@@ -10,6 +10,7 @@ namespace task1
         {
             base.B = B;
             Console.ForegroundColor = ConsoleColor.Yellow;
+            base.PrintToDebug(base.C, "_b", "string");
             Console.WriteLine("Class String");
             Console.WriteLine($"B = {base.B}\n" +
                 $"Type: String\n" +

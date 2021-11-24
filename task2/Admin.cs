@@ -8,9 +8,11 @@ namespace task2
     {
         public override void GetLogin()
         {
+            TypeUser = "Admin";
             Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine("--- Admin ---");
             base.GetLogin();
+            PrintToDebug();
         }
         public override void ShowInfo()
         {

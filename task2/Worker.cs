@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Diagnostics;
 
 namespace task2
 {
@@ -11,6 +12,10 @@ namespace task2
         
         public string TypeUser
         {
+            get
+            {
+                return _typeUser;
+            }
             set
             {
                 _typeUser = value;
@@ -18,6 +23,10 @@ namespace task2
         }
         public string Password
         {
+            get
+            {
+                return _password;
+            }
             set
             {
                 _password = value;
@@ -43,6 +52,11 @@ namespace task2
             Console.ForegroundColor = ConsoleColor.White;
             Console.WriteLine("Change information");
             Console.WriteLine("Only Admin can change information");
+        }
+        public void PrintToDebug()
+        {
+            Debug.WriteLine($"Property TypeUser: {TypeUser}\n" +
+                $"Property Password: {Password}");
         }
     }
 }
